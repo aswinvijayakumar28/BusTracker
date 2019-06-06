@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bbg"
+    android:layout_height="match_parent"
+    tools:context=".bus2tracker">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="568dp"
+        android:gravity="center"
+        android:text="BUS 2"
+        android:textColor="#E7E4E4"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/stoptrack2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="413dp"
+        android:background="@drawable/btn_style"
+        android:text="Stop Tracking"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+</RelativeLayout>
